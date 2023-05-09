@@ -165,7 +165,7 @@ const test = async () => {
 	console.log(await productMananager.getProductsFromFile());
 }
 
-
+test();
 // Diferencia entre Clase y Objeto instancia de clase
 console.log(`CLASS: ${productMananager}`);
 console.log(`INSTANCIA: ${productMananager}`);
